@@ -1,11 +1,11 @@
 require 'base64'
-require_relative '.answers/fizzbuzz'
+#require_relative '.answers/fizzbuzz'
 # For each number in the range of 1..100 put each element into an array as a string
 # for numbers which are multiples of 3 put in 'fizz'
 # for numbers which are multiples of 5 put in 'buzz'
 # for numbers which are multiples of 3 and 5 put in 'fizzbuzz'
 
-answer = fizzbuzz
+#answer = fizzbuzz
 def fizztest(myanswer)
   #puts Base64.encode64(fizzbuzz.to_s)
   answer = <<-EOH
