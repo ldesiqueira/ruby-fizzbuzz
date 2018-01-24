@@ -2,6 +2,8 @@ require 'net/http'
 require 'base64'
 require_relative '.answers/counter'
 
+# Take the book Thus Spoke Zarathustra from project gutenberg
+# Create a function which returns a hash countaining a count of each letter occurence in the book
 zara = Net::HTTP.get('www.gutenberg.org', '/files/1998/1998.txt')
 
 answer = do_counter
